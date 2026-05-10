@@ -53,6 +53,48 @@ Ed tech/
 - Protected dashboard UI
 - Swagger API docs at `/api-docs`
 
+## Visual Walkthrough
+
+### Authentication Landing Theme
+
+![Login Theme](docs/screenshots/01-login-theme.png)
+
+### Instructor Dashboard Overview
+
+![Instructor Dashboard Top](docs/screenshots/02-instructor-dashboard-top.png)
+
+### Instructor Completed Task Card
+
+![Instructor Completed Task](docs/screenshots/03-instructor-completed-task.png)
+
+### Instructor Pending Task Card
+
+![Instructor Pending Task](docs/screenshots/04-instructor-pending-task.png)
+
+### Forgot Password OTP Email
+
+![Forgot Password Email](docs/screenshots/05-forgot-password-email.png)
+
+### Forgot Password Reset Form
+
+![Forgot Password Form](docs/screenshots/06-forgot-password-form.png)
+
+### Student Pending Task Dashboard
+
+![Student Pending Dashboard](docs/screenshots/07-student-pending-dashboard.png)
+
+### Student Completed Task Dashboard
+
+![Student Completed Dashboard](docs/screenshots/08-student-completed-dashboard.png)
+
+### Registration OTP API Test
+
+![Register Send OTP Postman](docs/screenshots/09-register-send-otp-postman.png)
+
+### Registration OTP Email
+
+![Register OTP Email](docs/screenshots/10-register-email-otp.png)
+
 ## End-to-End Functionalities Explained
 
 This section explains what each major feature does and how it works internally in the backend.
@@ -102,6 +144,11 @@ Example email result:
 - Subject: `Verify your email for EdTech Task Platform`
 - Body contains the 6-digit OTP
 - OTP expires in 5 minutes
+
+Screenshots:
+
+![Register Send OTP API](docs/screenshots/09-register-send-otp-postman.png)
+![Register OTP Email](docs/screenshots/10-register-email-otp.png)
 
 ### 2. Registration Flow
 
@@ -171,6 +218,10 @@ Example success response:
   }
 }
 ```
+
+UI snapshot:
+
+![Login Theme](docs/screenshots/01-login-theme.png)
 
 ### 3. Login Flow
 
@@ -295,6 +346,11 @@ Example success response:
 }
 ```
 
+Screenshots:
+
+![Forgot Password Email](docs/screenshots/05-forgot-password-email.png)
+![Forgot Password Form](docs/screenshots/06-forgot-password-form.png)
+
 ### 6. Password Reset Flow
 
 Purpose:
@@ -404,6 +460,12 @@ Dummy success response:
 }
 ```
 
+Dashboard snapshots:
+
+![Instructor Dashboard Top](docs/screenshots/02-instructor-dashboard-top.png)
+![Instructor Pending Task](docs/screenshots/04-instructor-pending-task.png)
+![Instructor Completed Task](docs/screenshots/03-instructor-completed-task.png)
+
 ### 8. Instructor Task List and Filtering Flow
 
 Purpose:
@@ -454,6 +516,11 @@ Dummy response:
   ]
 }
 ```
+
+Student dashboard snapshots:
+
+![Student Pending Dashboard](docs/screenshots/07-student-pending-dashboard.png)
+![Student Completed Dashboard](docs/screenshots/08-student-completed-dashboard.png)
 
 ### 9. Student Task View Flow
 
